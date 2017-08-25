@@ -1,22 +1,15 @@
 import React from 'react';
-import citations from '../data/citations'
 
-class RandomCitations extends React.Component{
-  constructor(){
-    super();
-    //this.handleChangeNum = this.handleChangeNum.bind(this)
 
-  }
-
-  render(){
-    const num = this.props.citations
-    return (
-      <div>
-        <p id="citation">{citations['citation'+num]["citation"]}</p>
-        <span>- Auteur : {citations['citation'+num]["auteur"]} -</span><br/>
-        <button onClick={this.props.onClick}>Nouvelle citation</button>
-      </div>
-    )
-  }
+const RandomCitations = (props) => {
+  const num = props.citations
+  return (
+    <div>
+      <p id="citation">{props.data['citation'+num]["citation"]}</p>
+      <span>- Auteur : {props.data['citation'+num]["auteur"]} -</span><br/>
+      <button onClick={props.onClick}>Découvre un nouvelle citation</button>
+    </div>
+  )
 }
+
 export default RandomCitations;

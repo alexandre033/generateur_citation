@@ -1,5 +1,8 @@
 const citations = module.exports = {
-  
+  "citation0" :{
+    "auteur" : "Confusius",
+    "citation" : "Exige beaucoup de toi-même et attends peu des autres. Ainsi beaucoup d'ennuis te seront épargnés.",
+  },
   "citation1" :{
     "auteur" : "Confusius",
     "citation" : "Exige beaucoup de toi-même et attends peu des autres. Ainsi beaucoup d'ennuis te seront épargnés.",
@@ -19,5 +22,25 @@ const citations = module.exports = {
   "citation5":{
     "auteur" : "Abbé Pierre",
     "citation" : "Un sourire coûte moins cher que l'électricité, mais donne autant de lumière.",
+  },
+  "citation6":{
+    "auteur" : "Jean-paul Sartre",
+    "citation" : "Etre libre, ce n'est pas pouvoir faire ce que l'on veut, mais c'est vouloir ce que l'on peut.",
+  },
+  "citation7":{
+    "auteur" : "Léonard de Vinci",
+    "citation" : "La simplicité est la sophistication suprême.",
+  },
+  "citation8":{
+    "auteur" : "Friedrich Nietzsche",
+    "citation" : "Ce n'est pas le doute, c'est la certitude qui rend fou.",
+  },
+  "citation9":{
+    "auteur" : "Oscar Wilde",
+    "citation" : "Il ne faut pas se fier aux apparences. Beaucoup de gens n'ont pas l'air aussi bêtes qu'ils ne le sont réellement.",
+  },
+  "citation10":{
+    "auteur" : "Ghandi",
+    "citation" : "On ne peut battre son adversaire que par l'amour et non la haine. La haine est la forme la plus subtile de la violence. La haine blesse celui qui hait, et non le haï.",
   },
 }
